@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+  <xs:simpleType name="dniType">
+    <xs:restriction base="xs:string" >
+      <xs:pattern value="[0-9]{8}[A-Z]"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:complexType name="nameType">
+          <xs:simpleContent>
+            <xs:extension base="xs:string">
+              <xs:attribute name="dni" type="dniType"/>
+            </xs:extension>
+          </xs:simpleContent>
+  </xs:complexType>
+
+  <xs:complexType name="birthDateType">
+          <xs:simpleContent>
+            <xs:extension base="xs:date">
+              <xs:attribute name="age" type="xs:integer"/>
+            </xs:extension>
+          </xs:simpleContent>
+  </xs:complexType>
+
+  <xs:complexType name="paymentsType">
+    <xs:sequence>
+      <xs:element name="name" type="nameType"/>
+      <xs:element name="birthDate" type="birthDateType"/>
+      <xs:element name="time" type="xs:time" maxOccurs="unbounded"/>
+      <xs:element name="price" type="xs:decimal"/>
+      <xs:element name="amount" type="xs:integer" fixed="678"/>
+      <xs:element name="paid" type="xs:boolean" default="false"/>
+    </xs:sequence>
+  </xs:complexType>
+  
+  <xs:element name="payments" type="paymentsType"/>
+</xs:schema>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shiporder orderid="fjbz1908" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="ej2.xsd">
+    <orderperson>Miguel Ángel Castro</orderperson>
+    <shipto>
+        <name>Francisco José Berral</name>
+        <address>Av. Juan Carlos I, S/N</address>
+        <city>Fernán Núñez</city>
+        <country>España</country>
+    </shipto>
+    <item>
+        <title>AMD Ryzen 7 3700X</title>
+        <note>Procesador</note>
+        <quantity>1</quantity>
+        <price>298</price>
+    </item>
+</shiporder>

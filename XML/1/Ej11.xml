@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:element name="relacion">
+     <xs:complexType>
+         <xs:sequence>
+              <xs:element name="persona" type="xs:string"/ sexo="hombre" carnet="A1111">
+                     <xs:complexType>
+                      <xs:sequence>
+                          <xs:element nombre="Luis Martin" type="xs:string"/>
+                          <xs:element email="luis@hotmail.com" type="xs:string"/>
+                          <xs:element parentesco="Padre" type="xs:string"/>
+                      </xs:sequence>
+                   </xs:complexType>
+               </xs:element>
+              <xs:element name="persona" type="xs:string"/ sexo="mujer" carnet="C2222">
+                     <xs:complexType>
+                      <xs:sequence>
+                          <xs:element nombre="Laura Martin" type="xs:string"/>
+                          <xs:element email="laura@hotmail.com" type="xs:string"/>
+                          <xs:element parentesco="Hija" type="xs:string"/>
+                      </xs:sequence>
+                   </xs:complexType>
+                   <xs:element name="persona" type="xs:string"/  carnet="C3333">
+                     <xs:complexType>
+                      <xs:sequence>
+                          <xs:element nombre="Raul Gonzalez" type="xs:string"/>
+                          <xs:element email="raul@hotmail.com" type="xs:string"/>
+                        <xs:element email="raulin@hotmail.com" type="xs:string"/>
+                      </xs:sequence>
+                   </xs:complexType>
+              </xs:sequence>
+              <xs:element name="carnet">
+          <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                     <xs:pattern value="[a-z]"/>
+                     <xs:length value="5"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+                <xs:element name="email">
+          <xs:simpleType>
+                    <xs:restriction base="xs:string"                     <xs:length value="5"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+          <xs:element name="parentesco">
+  <xs:simpleType>
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Madre"/>
+      <xs:enumeration value="Padre"/>
+      <xs:enumeration value="Hijo"/>
+      <xs:enumeration value="Hija"/>
+      <xs:enumeration value="Otro"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:element>
+         </xs:complexType> 
+       </xs:element>
+</xs:schema>

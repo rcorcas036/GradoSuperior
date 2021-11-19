@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<empresa>
+        <edificio>
+            <dir>"Direccion"</dir>
+            <nplanta>"Num"</nplanta>
+            <info>
+                <numplanta>"Num"</numplanta>
+                <metros>"metros"</metros>
+                <planta>
+                    <empleado>
+                        <puesto>"puesto"</puesto>
+                        <datosp>
+                            <nombre>"nombre"</nombre>
+                            <apellido>"apellido"</apellido>
+                            <dni>"dni"</dni>
+                            <tlf>"telefono"</tlf>
+                        </datosp>
+                        <extension>"telefono extension</extension>
+                    </empleado>  
+                    <empleado>
+                        <puesto>"puesto"</puesto>
+                        <datosp>
+                            <nombre>"nombre"</nombre>
+                            <apellido>"apellido"</apellido>
+                            <dni>"dni"</dni>
+                            <tlf>"telefono"</tlf>
+                        </datosp>
+                        <extension>"telefono extension</extension>
+                    </empleado>  
+                    <empleado>
+                        <puesto>"puesto"</puesto>
+                        <datosp>
+                            <nombre>"nombre"</nombre>
+                            <apellido>"apellido"</apellido>
+                            <dni>"dni"</dni>
+                            <tlf>"telefono"</tlf>
+                        </datosp>
+                        <extension>"telefono extension</extension>
+                    </empleado>                   
+                </planta>
+                <planta>
+                    <empleado>
+                        <puesto>"puesto"</puesto>
+                        <datosp>
+                            <nombre>"nombre"</nombre>
+                            <apellido>"apellido"</apellido>
+                            <dni>"dni"</dni>
+                            <tlf>"telefono"</tlf>
+                        </datosp>
+                        <extension>"telefono extension</extension>
+                    </empleado>  
+                    <empleado>
+                        <puesto>"puesto"</puesto>
+                        <datosp>
+                            <nombre>"nombre"</nombre>
+                            <apellido>"apellido"</apellido>
+                            <dni>"dni"</dni>
+                            <tlf>"telefono"</tlf>
+                        </datosp>
+                        <extension>"telefono extension</extension>
+                    </empleado>  
+                    <empleado>
+                        <puesto>"puesto"</puesto>
+                        <datosp>
+                            <nombre>"nombre"</nombre>
+                            <apellido>"apellido"</apellido>
+                            <dni>"dni"</dni>
+                            <tlf>"telefono"</tlf>
+                        </datosp>
+                        <extension>"telefono extension</extension>
+                    </empleado>                   
+                </planta>
+            </info>
+        </edificio>
+        <edificio>
+            <dir>"Direccion"</dir>
+            <nplanta>"Num"</nplanta>
+            <info>
+                <numplanta>"Num"</numplanta>
+                <metros>"metros"</metros>
+                <planta>
+                    <empleado>
+                        <puesto>"puesto"</puesto>
+                        <datosp>
+                            <nombre>"nombre"</nombre>
+                            <apellido>"apellido"</apellido>
+                            <dni>"dni"</dni>
+                            <tlf>"telefono"</tlf>
+                        </datosp>
+                        <extension>"telefono extension</extension>
+                    </empleado>  
+                    <empleado>
+                        <puesto>"puesto"</puesto>
+                        <datosp>
+                            <nombre>"nombre"</nombre>
+                            <apellido>"apellido"</apellido>
+                            <dni>"dni"</dni>
+                            <tlf>"telefono"</tlf>
+                        </datosp>
+                        <extension>"telefono extension</extension>
+                    </empleado>  
+                    <empleado>
+                        <puesto>"puesto"</puesto>
+                        <datosp>
+                            <nombre>"nombre"</nombre>
+                            <apellido>"apellido"</apellido>
+                            <dni>"dni"</dni>
+                            <tlf>"telefono"</tlf>
+                        </datosp>
+                        <extension>"telefono extension</extension>
+                    </empleado>                   
+                </planta>
+                <planta>
+                    <empleado>
+                        <puesto>"puesto"</puesto>
+                        <datosp>
+                            <nombre>"nombre"</nombre>
+                            <apellido>"apellido"</apellido>
+                            <dni>"dni"</dni>
+                            <tlf>"telefono"</tlf>
+                        </datosp>
+                        <extension>"telefono extension</extension>
+                    </empleado>  
+                    <empleado>
+                        <puesto>"puesto"</puesto>
+                        <datosp>
+                            <nombre>"nombre"</nombre>
+                            <apellido>"apellido"</apellido>
+                            <dni>"dni"</dni>
+                            <tlf>"telefono"</tlf>
+                        </datosp>
+                        <extension>"telefono extension</extension>
+                    </empleado>  
+                    <empleado>
+                        <puesto>"puesto"</puesto>
+                        <datosp>
+                            <nombre>"nombre"</nombre>
+                            <apellido>"apellido"</apellido>
+                            <dni>"dni"</dni>
+                            <tlf>"telefono"</tlf>
+                        </datosp>
+                        <extension>"telefono extension</extension>
+                    </empleado>                   
+                </planta>
+            </info>
+        </edificio>
+</empresa

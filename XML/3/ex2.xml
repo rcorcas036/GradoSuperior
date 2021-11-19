@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE autobuses>
+
+<autobuses>
+	<autobus identificador_del_vehiculo="1">
+		<rutas>
+			<ruta nombre_ruta="Ruta 1">
+				<horario>
+					<hora>00:00</hora>
+					<hora>01:00</hora>
+					<hora>02:00</hora>
+				</horario>
+				<paradas>
+					<parada nombre_parada="Nombre Parada 1"></parada>
+					<parada nombre_parada="Nombre Parada 2"></parada>
+					<parada nombre_parada="Nombre Parada 3"></parada>
+				</paradas>
+			</ruta>
+		</rutas>
+	</autobus>
+</autobuses>

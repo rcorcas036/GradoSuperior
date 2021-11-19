@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE libros>
+
+<libros>
+	<libro tipo="Libro de Cocina">
+		<recetas>
+			<receta nombre="Receta 1">
+				<ingredientes>
+					<ingrediente>Ingrediente 1</ingrediente>
+					<ingrediente>Ingrediente 2</ingrediente>
+					<ingrediente>Ingrediente 3</ingrediente>
+				</ingredientes>
+				<pasos>
+					<paso>1º Paso</paso>
+					<paso>2º Paso</paso>
+					<paso>3º Paso</paso>
+					<paso>4º Paso</paso>
+					<paso>5º Paso</paso>
+					<paso>6º Paso</paso>
+				</pasos>
+			</receta>
+			<receta nombre="Receta 2">
+				<ingredientes>
+					<ingrediente>Ingrediente 1</ingrediente>
+					<ingrediente>Ingrediente 2</ingrediente>
+					<ingrediente>Ingrediente 3</ingrediente>
+					<ingrediente>Ingrediente 4</ingrediente>
+				</ingredientes>
+				<pasos>
+					<paso>1º Paso</paso>
+					<paso>2º Paso</paso>
+					<paso>3º Paso</paso>
+					<paso>4º Paso</paso>
+					<paso>5º Paso</paso>
+					<paso>6º Paso</paso>
+					<paso>7º Paso</paso>
+					<paso>8º Paso</paso>
+				</pasos>
+			</receta>
+		</recetas>
+	</libro>
+</libros>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<torneo>
+    <nombre>msac</nombre>
+    <finicio>03/08/2023</finicio>
+    <ffinal>05/08/2023</ffinal>
+
+        <partido nombre="1">
+            <fecha>03/08/2023</fecha>
+            <jugador>
+                <nombre>Antonio</nombre>
+                <apellido>Garcia</apellido>
+                <dni>93842970C</dni>
+                <equipo>Garthlick</equipo>
+            </jugador>
+            <jugador>
+                <nombre>Francisco</nombre>
+                <apellido>Molina</apellido>
+                <dni>72839411U</dni>
+                <equipo>KATTT</equipo>
+            </jugador>
+
+            <set nombre="1">
+                <resultado>4-6</resultado>
+            </set>
+            <set nombre="2">
+                <resultado>7-6</resultado>
+            </set>
+            <set nombre="3">
+                <resultado>6-5</resultado>
+            </set>
+            
+        </partido>
+        <partido nombre="2">
+            <fecha>04/08/2023</fecha>
+            <jugador>
+                <nombre>Pelayo</nombre>
+                <apellido>De la Rosa</apellido>
+                <dni>81229458X</dni>
+                <equipo>Ad astraa</equipo>
+            </jugador>
+            <jugador>
+                <nombre>Manuel</nombre>
+                <apellido>Rodejo</apellido>
+                <dni>98382844P</dni>
+                <equipo>kisscop</equipo>
+            </jugador>
+
+            <set nombre="1">
+                <resultado>0-6</resultado>
+            </set>
+            <set nombre="2">
+                <resultado>2-6</resultado>
+            </set>
+            <set nombre="3">
+                <resultado>4-5</resultado>
+            </set>
+            
+        </partido>
+</torneo>

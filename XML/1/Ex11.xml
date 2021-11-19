@@ -1,0 +1,19 @@
+<pelicula>
+    <nombre></nombre>
+     <director>
+       <nombre></nombre>
+     </director>
+         <protagonista>
+            <nombre></nombre>
+            <nombre></nombre>               
+         </protagonista>
+            <resumen></resumen>
+               <sesion>
+                  <sala>
+                     <nombre></nombre>
+                     <hora></hora>                     
+                  </sala>
+               </sesion>               
+</pelicula>
+
+<>

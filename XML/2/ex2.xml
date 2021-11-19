@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<cluster>
+    <nodo nombre="1">
+        <MV nombre="1">
+            <nombre>windows10</nombre>
+            <SO>windows 10</SO>
+        <Ired>
+            <ip>192.169.83.22</ip>
+            <mac>A9:D3:30:O2:DN:BD</mac>
+        </Ired>
+        </MV>
+        <MV nombre="2">
+            <nombre>windows8</nombre>
+            <SO>windows 8</SO>
+        <Ired>
+            <ip>192.168.21.48</ip>
+            <mac>AO:S8:D7:FF:F2:GD</mac>
+        </Ired>
+        </MV>
+        <MV nombre="3">
+            <nombre>windows7</nombre>
+            <SO>windows7</SO>
+        <Ired>
+            <ip>192.168.28.88</ip>
+            <mac>LA:S2:M2:L4:11:2D</mac>
+        </Ired>
+        </MV>
+    </nodo>
+    <nodo nombre="2">
+        <MV nombre="1">
+            <nombre>windowsXP</nombre>
+            <SO>windowsXP</SO>
+        <Ired>
+            <ip>192.168.29.33</ip>
+            <mac>A8:S8:DD:DI:9D:88</mac>
+        </Ired>
+        </MV>
+        <MV nombre="2">
+            <nombre>windowsVISTA</nombre>
+            <SO>windowsVISTA</SO>
+        <Ired>
+            <ip>192.168.23.33</ip>
+            <mac>AA:S4:99:6D:D8:N1</mac>
+        </Ired>
+        </MV>
+        <MV nombre="3">
+            <nombre>windows98</nombre>
+            <SO>windows98</SO>
+        <Ired>
+            <ip>192.168.23.44</ip>
+            <mac>D0:7J:55:DJ:N2:M2</mac>
+        </Ired>
+        </MV>
+    </nodo>
+    <nodo nombre="3">
+        <MV nombre="1">
+            <nombre>Linux</nombre>
+            <SO>Ubuntu</SO>
+        <Ired>
+            <ip>192.168.45.94</ip>
+            <mac>AA:S4:99:6D:D8:L1</mac>
+        </Ired>
+        </MV>
+        <MV nombre="2">
+            <nombre>windowsServer</nombre>
+            <SO>windowsServer</SO>
+        <Ired>
+            <ip>192.168.57.22</ip>
+            <mac>AO:S8:D7:43:F2:2D</mac>
+        </Ired>
+        </MV>
+        <MV nombre="3">
+            <nombre>windows72</nombre>
+            <SO>windows7</SO>
+        <Ired>
+            <ip>192.168.66.45</ip>
+            <mac>A9:D3:30:B2:3N:DD</mac>
+        </Ired>
+        </MV>
+    </nodo>
+</cluster>

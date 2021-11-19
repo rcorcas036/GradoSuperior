@@ -1,0 +1,61 @@
+<concesionario>
+    <catalogo>
+        <marca>
+            <nombre>Ford</nombre>
+            <pais>EEEUU</pais>
+            <coche>
+                <matricula>9382NBS</matricula>
+                <Fmatriculacion>2015</Fmatriculacion>
+                <modelo>Fiesta</modelo>
+                <Nplazas>4</Nplazas>
+                <cilindrada>1084</cilindrada>
+            </coche>
+            <coche>
+                <matricula>3842FKW</matricula>
+                <Fmatriculacion>2016</Fmatriculacion>
+                <modelo>Mondeo</modelo>
+                <Nplazas>4</Nplazas>
+                <cilindrada>11394</cilindrada>
+            </coche>
+       </marca>
+
+        <marca>
+            <nombre>Renault</nombre>
+            <pais>Francia</pais>
+            <coche>
+                <matricula>7322JUI</matricula>
+                <Fmatriculacion>2020</Fmatriculacion>
+                <modelo>Clio</modelo>
+                <Nplazas>4</Nplazas>
+                <cilindrada>1020</cilindrada>
+            </coche>
+            <coche>
+                <matricula>3812ANS</matricula>
+                <Fmatriculacion>2019</Fmatriculacion>
+                <modelo>Arkana</modelo>
+                <Nplazas>4</Nplazas>
+                <cilindrada>1300</cilindrada>
+            </coche>
+       </marca>
+
+       <marca>
+            <nombre>Opel</nombre>
+            <pais>Alemania</pais>
+            <coche>
+                <matricula>8218NAS</matricula>
+                <Fmatriculacion>2012</Fmatriculacion>
+                <modelo>Corsa</modelo>
+                <Nplazas>4</Nplazas>
+                <cilindrada>912</cilindrada>
+            </coche>
+            <coche>
+                <matricula>2739ASK</matricula>
+                <Fmatriculacion>2019</Fmatriculacion>
+                <modelo>Mokka</modelo>
+                <Nplazas>4</Nplazas>
+                <cilindrada>1132</cilindrada>
+            </coche>
+       </marca>
+    </catalogo>
+</concesionario>
+<>

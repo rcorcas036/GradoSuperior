@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE television>
+
+<canales>
+	<canal nombre="la 1" numero="1">
+		<programacion>
+            <dia nombre="Lunes">
+                <programa>
+                    <duracion>9 horas</duracion>
+                    <titulo>Noticias</titulo>
+                    <edad>0</edad>
+                    <subtitulos>Si</subtitulos>
+                    <idioma>Castellano</idioma>
+                    <descripcion>Noticias diarias</descripcion>
+                </programa>
+
+                <programa>
+                    <duracion>15</duracion>
+                    <titulo>somos</titulo>
+                    <edad>+16</edad>
+                    <subtitulos>Si</subtitulos>
+                    <idioma>Castellano</idioma>
+                    <descripcion>Peliculas antiguas</descripcion>
+                </programa>
+                <anuncio>
+                  <marca>Coca_Cola</marca>
+                  <duracion>15</duracion>
+                  <horario>
+                    <horaemision>12:15-12:30</horaemision>
+                    <horaemision>13:15-13:30</horaemision>
+                    <horaemision>17:15-17:30</horaemision>
+                    <horaemision>20:15-20:30</horaemision>
+                    <horaemision>22:15-22:30</horaemision>
+                   </horario>
+                </anuncio>
+            </dia>
+            <dia nombre="Martes">
+                <programa>
+                    <duracion>4 horas</duracion>
+                    <titulo>La copla</titulo>
+                    <edad>0</edad>
+                    <subtitulos>Si</subtitulos>
+                    <idioma>Castellano</idioma>
+                    <descripcion>Gente cantando copla</descripcion>
+                </programa>
+
+                <programa>
+                    <duracion>20 horas</duracion>
+                    <titulo>Teletienda</titulo>
+                    <edad>0</edad>
+                    <subtitulos>No</subtitulos>
+                    <idioma>Castellano - Ingles</idioma>
+                    <descripcion>Teletienda</descripcion>
+                </programa>
+                <anuncio>
+                  <marca>Coca_Cola</marca>
+                  <duracion>15</duracion>
+                  <horario>
+                    <horaemision>12:15-12:30</horaemision>
+                    <horaemision>13:15-13:30</horaemision>
+                    <horaemision>17:15-17:30</horaemision>
+                    <horaemision>20:15-20:30</horaemision>
+                    <horaemision>22:15-22:30</horaemision>
+                   </horario>
+                </anuncio>
+            </dia>
+        </programacion>	
+	</canal>		
+</canales>

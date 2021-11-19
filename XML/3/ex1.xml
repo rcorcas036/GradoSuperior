@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE clase>
+
+<clase>
+	<profesor nombre="Profesor 1">
+		<asignaturas>
+			<asignatura tipo="Asignatura 1">
+				<alumnos>
+					<alumno nombre_completo="Nombre Apellido 1"></alumno>
+					<alumno nombre_completo="Nombre Apellido 2"></alumno>
+					<alumno nombre_completo="Nombre Apellido 3"></alumno>
+					<alumno nombre_completo="Nombre Apellido 4"></alumno>
+					<alumno nombre_completo="Nombre Apellido 5"></alumno>
+					<alumno nombre_completo="Nombre Apellido 6"></alumno>
+					<alumno nombre_completo="Nombre Apellido 7"></alumno>
+					<alumno nombre_completo="Nombre Apellido 8"></alumno>
+					<alumno nombre_completo="Nombre Apellido 9"></alumno>
+					<alumno nombre_completo="Nombre Apellido 10"></alumno>
+				</alumnos>
+			</asignatura>
+			<asignatura tipo="Asignatura 2">
+				<alumnos>
+					<alumno nombre_completo="Nombre Apellido 11"></alumno>
+					<alumno nombre_completo="Nombre Apellido 12"></alumno>
+					<alumno nombre_completo="Nombre Apellido 13"></alumno>
+					<alumno nombre_completo="Nombre Apellido 14"></alumno>
+					<alumno nombre_completo="Nombre Apellido 15"></alumno>
+					<alumno nombre_completo="Nombre Apellido 16"></alumno>
+					<alumno nombre_completo="Nombre Apellido 17"></alumno>
+					<alumno nombre_completo="Nombre Apellido 18"></alumno>
+					<alumno nombre_completo="Nombre Apellido 19"></alumno>
+					<alumno nombre_completo="Nombre Apellido 20"></alumno>
+				</alumnos>
+			</asignatura>
+		</asignaturas>
+	</profesor>
+</clase>

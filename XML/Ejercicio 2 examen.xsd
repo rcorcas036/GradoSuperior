@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema 
+    xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="television">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="canal" maxOccurs="unbounded">
+                    <xs:complexType>
+
+                        <xs:sequence>
+                            <xs:element name="programacion" maxOccurs="7">
+                            <xs:complexType>
+                            <xs:sequence>
+                                <xs:element name="dia" type="xs:string">
+                            </xs:complexType>
+                            <xs:complexType>
+                            <xs:sequence>
+
+                                <xs:element name="programa" maxOccurs="unbounded">
+                            <xs:complexType>
+                            <xs:sequence>
+                                <xs:element name="duracion" type="xs:string"/>
+                                <xs:element name="titulo" type="xs:string"/>
+                                <xs:element name="edad" type="xs:int"/>
+                                <xs:element name="subtitulos" type="xs:boolean"/>
+                                <xs:element name="idioma" type="xs:string"/>
+                                <xs:element name="descripcion" type="xs:string"/>
+                                 </xs:sequence>
+                                 </xs:complexType>
+                                 </xs:element>
+
+                                  <xs:element name="anuncio" minOccurs="0"> 
+                                        <xs:complexType>
+                                            <xs:sequence>
+                                  <xs:element name="marca" type="xs:string"/>
+                                 <xs:element name="duracion" type="xs:string"/>                           
+                                 </xs:sequence>
+                                     </xs:complexType>
+                                 </xs:element>
+
+                                  </xs:sequence>
+                                     <xs:element name="horaemision" type="xs:string"/> 
+                                 </xs:sequence>
+
+                           </xs:complexType>
+                            </xs:sequence>
+                        </xs:element>
+                        </xs:sequence>
+                
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

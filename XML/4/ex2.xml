@@ -1,0 +1,44 @@
+<centrocomercial>
+    <tienda>
+        <nombre>Iberplus</nombre>
+        <parcelas>
+            <cantidad>3</cantidad>
+            <metros>300</metros>
+        </parcelas>
+        <encargado>
+            <nombre>Maria</nombre>
+            <apellido>Roncero</apellido>
+            <tlf>374599117</tlf>
+            <NSS>19 28 47 1829 3</NSS>
+        </encargado>
+    </tienda>
+
+    <tienda>
+        <nombre>Don Folio</nombre>
+        <parcelas>
+            <cantidad>1</cantidad>
+            <metros>100</metros>
+        </parcelas>
+        <encargado>
+            <nombre>Fernando</nombre>
+            <apellido>Riso</apellido>
+            <tlf>965646383</tlf>
+            <NSS>36 63 44 3849 6</NSS>
+        </encargado>
+    </tienda>
+
+    <tienda>
+        <nombre>Pureza</nombre>
+        <parcelas>
+            <cantidad>2</cantidad>
+            <metros>200</metros>
+        </parcelas>
+        <encargado>
+            <nombre>Carlos</nombre>
+            <apellido> Sanchez</apellido>
+            <tlf>489478773</tlf>
+            <NSS>17 52 84 9887 0</NSS>
+        </encargado>
+    </tienda>
+
+</centrocomercial>

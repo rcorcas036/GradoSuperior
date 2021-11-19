@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE transportes>
+
+<mediostransporte>
+	<transporte nombre="tren">
+		<tipotren nombre="cercanias">
+			<info>
+				<velocidadmax>100</velocidadmax>
+				<contaminacion>324</contaminacion>
+				<medio>tierra</medio>
+				<cantpasajeros>12</cantpasajeros>
+			</info>
+		</tipotren>
+		<tipotren nombre="ave">
+			<info>
+				<velocidadmax>331</velocidadmax>
+				<contaminacion>823</contaminacion>
+				<medio>tierra</medio>
+				<cantpasajeros>183</cantpasajeros>
+			</info>
+		</tipotren>
+		</transporte>
+
+	<transporte nombre="coche">
+		<info>
+			<velocidadmax>31</velocidadmax>
+			<contaminacion>523</contaminacion>
+			<medio>tierra</medio>
+			<cantpasajeros>3</cantpasajeros>
+		<info>		
+	</transporte>
+	<transporte nombre="avion">
+		<info>
+			<velocidadmax>3121</velocidadmax>
+			<contaminacion>11223</contaminacion>
+			<medio>aire</medio>
+			<cantpasajeros>381</cantpasajeros>
+		<info>		
+	</transporte>
+	<conductores>
+		<infoconductor nombre="cercanias">
+			<dni>72367238I</dni>
+			<tlf>9123874982</tlf>
+			<matricula>237849L<matricula>
+		</infoconductor>
+        <infoconductor nombre="ave">
+			<dni>2347238I</dni>
+			<tlf>93374982</tlf>
+			<matricula>21149L<matricula>
+		</infoconductor>
+
+		<infoconductor nombre="coche">
+			<dni>2213238P</dni>
+			<tlf>93243874982</tlf>
+			<matricula>2982149L<matricula>
+		</infoconductor>	
+
+	<infoconductor nombre="avion">
+			<dni>81713238P</dni>
+			<tlf>93271114982</tlf>
+			<matricula>20829L<matricula>
+		</infoconductor>
+
+	</conductores>		
+</mediostransporte>

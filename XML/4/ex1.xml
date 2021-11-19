@@ -1,0 +1,39 @@
+<libro>
+    <titulo>Historia</titulo>
+
+    <editorial>Anaya</editorial>
+    
+    <npaginas>12</npaginas>
+    
+    <autor>
+        <nombre>Jose Manuel Deodo</nombre>
+    </autor>
+    
+    <capitulo>
+       <nombre>Prehistoria</nombre>
+        
+        <pinicio>1</pinicio>
+    
+        <pfinal>2</pfinal>
+    
+    </capitulo>
+
+<capitulo>
+       <nombre>Civilizaciones</nombre>
+        
+        <pinicio>2</pinicio>
+    
+        <pfinal>3</pfinal>
+    
+    </capitulo>
+
+<capitulo>
+       <nombre>Metales</nombre>
+        
+        <pinicio>3</pinicio>
+    
+        <pfinal>4</pfinal>
+    
+   </capitulo>
+
+</libro>

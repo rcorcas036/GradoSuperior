@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE libro>
+<libro>
+    <recetas>
+        <receta1>
+         <nombre>Tortilla Francesa</nombre>
+          <ingredientes>
+            <nombre>2 huevos</nombre>
+            <nombre>1tb.aceite</nombre>
+            <nombre>1 puñado queso rallado</nombre>
+            <nombre>1 pack beicon </nombre>
+          </ingredientes>
+
+          <pasos>
+          <nombre>Batir huevos</nombre>
+          <nombre>Calentar aceite en la sarten(fuego medio)</nombre>
+          <nombre>Echar huevos en la sarten</nombre>
+          <nombre>Cuando pase 30s echar queso y beicon</nombre>
+          <nombre>Mover la base para que no se pegue </nombre>
+          <nombre>Doblar la tortilla</nombre>
+          <nombre>Hacer ambos lados</nombre>
+          </pasos>
+        </receta1>
+
+        <receta2>
+            <nombre>Ensalada Mixta</nombre>
+            <ingredientes>
+              <nombre>1 lechuga</nombre>
+              <nombre>Nueces</nombre>
+              <nombre>Queso curado</nombre>
+              <nombre>Cualquier carne para acompañar Ej:Salchichas</nombre>
+              <nombre>Pan</nombre>
+             </ingredientes>
+            
+            <pasos>
+              <nombre>Picar la lechuga</nombre>
+              <nombre>Cortar el queso en porciones pequeñas</nombre>
+              <nombre>Freir ligeramente el pan en una sartén</nombre>
+              <nombre>En el caso de las salchichas cocinarlas(opcional)</nombre>
+              <nombre>Juntar en una fuente la ensalda,las nueces, el pan y el queso. Finalmente encima la carne</nombre>
+              <nombre>Mezclar</nombre>
+            </pasos>
+        </receta2>
+    </recetas>
+</libro>

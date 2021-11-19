@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE autobus>
+<ruta>
+    <nombre>Capital 1</nombre>
+    <horario>7 a.m - 9 a.m</horario>
+    <paradas>
+        <nombre>Puente Genil</nombre>
+        <nombre>Aguilar de la Fra.</nombre>
+        <nombre>Montilla</nombre>
+        <nombre>Montemayor</nombre>
+        <nombre>Fernan Nuñez</nombre>
+        <nombre>Cordoba</nombre>
+    </paradas>
+</ruta>

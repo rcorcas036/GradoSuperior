@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shiporder>
+    <orderperson>
+        <shipto>
+            <name>Nombre</nanme>
+            <address>Direccion</address>
+            <city>Ciudad</city>
+            <country>Pais</country>  
+        </shipto>
+        <item>
+        <title>Nombre</title>
+        <note>Nota</note>
+        <quantity>Cantidad</quantity>
+        <price>Precio</price>
+        </item>
+    </orderperson>
+</shiporder>

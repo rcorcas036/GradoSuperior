@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GWS_FlightInformationRQ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="xsdexamen.xsd">
+<Flights>
+    <Flight returnFlightServiceInfo=0>
+        <airline>Alsa</airline>
+        <number>892</number>
+        <date>02/09/2020</date>
+        <orig>Kansas</orig>
+        <dest>Huelva</dest>
+        <bic>Mercancia</bic>
+        </Flight>
+    <Flight returnFlightServiceInfo=1>
+        <airline>Asahi</airline>
+        <number>712</number>
+        <date>12/09/2020</date>
+        <orig>Cordoba</orig>
+        <dest>Caracas</dest>
+        <bic>Transporte</bic>
+    </Flight>
+</Flights>
+</GWS_FlightInformationRQ>

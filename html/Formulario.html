@@ -1,0 +1,93 @@
+	<!DOCTYPE html>
+<html lang="es">
+  <head>
+      <meta name="Description" content="Formulario" />
+      <meta charset="utf-8" />  
+	  <style>
+	  table, th, td {
+		border: 1px solid white;
+		 border-collapse: collapse;
+		 border-style: none;
+		 
+			}
+			tr{
+			border-bottom: 2pt solid black;
+			border-top: 2pt solid black;
+			}
+	  </style>
+	  </head>
+	  <body>
+	  <h1>Formulario de reserva de salas</h1>
+	  <table >
+
+  <tr bgcolor="#CFCFCF" >
+    <td>Tu nombre:</td>
+    
+    <td>	  <INPUT TYPE="text" NAME="nombre" VALUE="" SIZE="30" MAXLENGTH="20" ALIGN="left"> </td>
+  
+  </tr>
+  
+  <tr>
+  
+    <td>Tu correo eletrónico:</td>
+    
+    <td>	  <INPUT TYPE="text" NAME="correo" VALUE="" SIZE="45" MAXLENGTH="50" ALIGN="left"> </td>
+  </tr>
+  
+   <tr bgcolor="#CFCFCF">
+    
+    <td rowspan=3>Tipo de sala que desea reservar:</td>
+    <td rowspan=3>	  <INPUT TYPE="radio" NAME="Tipo" VALUE="A">Tipo A 
+	<BR>
+	<INPUT TYPE="radio" NAME="tipo" VALUE="B">Tipo B 
+	<BR>
+	<INPUT TYPE="radio" NAME="tipo" VALUE="B">Tipo C
+  </tr>
+  <tr bgcolor="#CFCFCF">
+    
+    
+  
+  </tr>
+  <tr bgcolor="#CFCFCF">
+     
+   
+  
+     </tr>
+  <tr>
+   
+    <td>Departamento:</td>
+   
+    <td>	<SELECT NAME="depart">  <OPTION>Ventas <OPTION>Informacion<OPTION>Limpieza<OPTION>Recopilacion </td>
+  </tr>
+     <tr bgcolor="#CFCFCF">
+   
+    <td rowspan=3> Requisitos extra:</td>
+    <td rowspan=3>	  <INPUT TYPE="checkbox" NAME="Pintura">Caballete y bolígrafo     
+	<BR>
+	<INPUT TYPE="checkbox" NAME="TV">Televisión  
+	<BR>
+	<INPUT TYPE="checkbox" NAME="bebida">Café,té y agua
+	</tr>
+	<tr bgcolor="#CFCFCF">
+   
+   
+      
+  </tr>
+  	<tr bgcolor="#CFCFCF">
+   
+    
+	      
+  </tr>
+  <tr>
+    <td>Fecha de la reserva:</td>
+    
+    <td>	  <INPUT TYPE="date" NAME="dia" VALUE="" SIZE="15" MAXLENGTH="20" ALIGN="left"> </td>
+  </tr>
+  <tr bgcolor="#CFCFCF">
+    <td>Hora de la reserva:</td>
+    
+    <td>	  <INPUT TYPE="time" NAME="hora" VALUE="" SIZE="8" MAXLENGTH="20" ALIGN="left"> </td>
+  </tr>
+  </table>
+ 
+  </body>
