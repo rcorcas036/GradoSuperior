@@ -1,0 +1,54 @@
+/* This is a comment */
+/* Style Sheet for Jaberwocky Tutorial */
+
+/* Body */
+body {background-color: aqua}
+
+/*En toda la etiqueta de body le da un color "tan"*/
+
+
+/* Headers */
+h1 {color:maroon; font-size:20pt}
+h2 {color:red;}
+
+/*En toda la etiqueta de h1 (titulo) le aplica un color marron 
+y un tamaño de letra de 20/*
+
+/* HR (Hard Rule = line) */
+hr {color:navy; height: 10px; }
+/*En toda la etiqueta hr (linea) le aplica un color "navy"*/
+
+/* Paragraphs */
+p {font-size:12pt; margin-left: 15px}
+p.verse {color:maroon; margin-left: 60px}
+p.comment{color: yellow;}
+/*En toda la etiqueta p le aplica un tamaño de letra de 12 con margen a la izquierda 
+Crea una clase para la etiqueta p llamada p.verse donde tiene un color marron y margen a la izquierda de 60
+*/
+
+/* Divs */
+{color:slategray; margin-left: 40px;}
+/* Links */
+a:link     {color:green}
+a:visited  {color:yellow}
+a:hover    {color:black}
+a:active   {color:blue}
+
+/*En la etiqueta de a en el apartado de link lo deja con color verde
+En la etiqueta de a en el apartado de visited lo deja con color amarillo
+En la etiqueta de a en el apartado de hover lo deja con color negro
+En la etiqueta de a en el apartado de active lo deja con color azul
+*/
+/* Navigation */
+
+/* Classes used by all html elements */
+
+/* Ids */
+
+
+/*
+¿por qué los últimos 5 párrafos se muestran de forma diferente que los 2 primeros?
+Por que tienen aplicado el estilo de p.verse y le da ese tono marron con margen a la izquierda
+
+*/
+

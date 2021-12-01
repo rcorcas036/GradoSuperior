@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<style>
+table {
+  border:2px solid gray;
+  width:200px;
+  height:100px;
+
+}
+
+</style>
+<head>
+	<title>Event Planner</title>
+	<meta charset="utf-8"/>
+	<meta name="description" content=""/>
+</head>
+
+<body>
+<table>
+<td>
+<table>
+<tr>
+<th >Title</th>
+<th>Short Title</th>
+</tr>
+<tr>
+<td><INPUT TYPE="text" NAME="nombre" VALUE="" SIZE="30" MAXLENGTH="20" ALIGN="left"></td>
+<td><INPUT TYPE="text" NAME="nombre" VALUE="" SIZE="10" MAXLENGTH="20" ALIGN="left"></td>
+</tr>
+
+</table>
+</td>
+<td>
+<table>
+<tr>
+<th >Subj.:</th>
+<th>Num.:</th>
+<th>Section:</th>
+<th>Year:</th>
+</tr>
+<tr>
+<td><INPUT TYPE="text" NAME="nombre" VALUE="" SIZE="3" MAXLENGTH="2" ALIGN="left"></td>
+<td><INPUT TYPE="text" NAME="nombre" VALUE="" SIZE="3" MAXLENGTH="2" ALIGN="left"></td>
+<td><INPUT TYPE="text" NAME="nombre" VALUE="" SIZE="3" MAXLENGTH="2" ALIGN="left"></td>
+<td><INPUT TYPE="text" NAME="nombre" VALUE="" SIZE="3" MAXLENGTH="2" ALIGN="left"></td>
+</tr>
+
+</table>
+</td>
+</table>
+<table>
+<td>
+<table>
+<tr>
+<td><INPUT TYPE="checkbox" NAME="requirements">Enrollment limit</td>
+<td><b>Num:<INPUT TYPE="text" NAME="nombre" VALUE="" SIZE="3" MAXLENGTH="2" ALIGN="left"></td>
+<td><b>Rationale:<INPUT TYPE="text" NAME="nombre" VALUE="" SIZE="30" MAXLENGTH="2" ALIGN="left"></td>
+<td><b>Class Meetings/Week<select id="num" name="num">
+    <option value="volvo">1</option>
+    <option value="saab">2</option>
+    <option value="fiat">3</option>
+    <option value="audi">4</option>
+  </select> </td>
+
+</tr>
+<tr>
+<td><INPUT TYPE="checkbox" NAME="requirements">Consent Required</td>
+<td></td>
+<td><b>Rationale:<INPUT TYPE="text" NAME="nombre" VALUE="" SIZE="30" MAXLENGTH="2" ALIGN="left"></td>
+<td><b>lass Hour/Week:<select id="num" name="num">
+    <option value="volvo">1</option>
+    <option value="saab">2</option>
+    <option value="fiat">3</option>
+    <option value="audi">4</option></td>
+
+</tr>
+<tr>
+<td><INPUT TYPE="checkbox" NAME="requirements">Limit class level</td>
+<td><b>Code:<INPUT TYPE="text" NAME="nombre" VALUE="" SIZE="3" MAXLENGTH="2" ALIGN="left"></td>
+<td><b><b>Rationale:<INPUT TYPE="text" NAME="nombre" VALUE="" SIZE="30" MAXLENGTH="2" ALIGN="left"><BR>How to handle over-enrollment:<INPUT TYPE="text" NAME="nombre" VALUE="" SIZE="30" MAXLENGTH="2" ALIGN="left"></td>
+<td><b>Semester(s)Offerec: <select id="num" name="num">
+    <option value="volvo">None</option>
+    <option value="saab">1</option>
+    <option value="fiat">2</option>
+    <option value="audi">3</option></td>
+
+</tr>
+<tr>
+<td><INPUT TYPE="checkbox" NAME="requirements">Prerequisite</td>
+<td></td>
+<td><b>Rationale:<INPUT TYPE="text" NAME="nombre" VALUE="" SIZE="30" MAXLENGTH="2" ALIGN="left"><BR>Required Prerreqs.(major course):<INPUT TYPE="text" NAME="nombre" VALUE="" SIZE="30" MAXLENGTH="2" ALIGN="left"><BR>Recommended Prerreqs::<INPUT TYPE="text" NAME="nombre" VALUE="" SIZE="30" MAXLENGTH="2" ALIGN="left"></td>
+<td><INPUT TYPE="checkbox" NAME="requirements">Incl, semester in prerqs.<br><INPUT TYPE="checkbox" NAME="requirements">Offered only once<br><INPUT TYPE="checkbox" NAME="requirements">Incl. in printed catalog</td>
+
+</tr>
+</table>
+</td>
+<td>
+<table>
+<tr><td><b>Keywords</td></tr>
+<tr><td><INPUT TYPE="checkbox" NAME="requirements">Science for non-majors</td></tr>
+<tr><td><INPUT TYPE="checkbox" NAME="requirements">Fine arts for non-majors</td></tr>
+<tr><td><INPUT TYPE="checkbox" NAME="requirements">lab sicence course</td></tr>
+<tr><td><INPUT TYPE="checkbox" NAME="requirements">Artistic practice</td></tr>
+<tr><td><INPUT TYPE="checkbox" NAME="requirements">Foreign language/culture taught in English</td></tr>
+<tr><td><INPUT TYPE="checkbox" NAME="requirements">Community based learning</td></tr>
+<tr><td><INPUT TYPE="checkbox" NAME="requirements">Wrtting attentive</td></tr>
+<tr><td><INPUT TYPE="checkbox" NAME="requirements">Writting intensive</td></tr>
+</table>
+</td>
+<table>
+<tr>
+<td>Approvals<br><INPUT TYPE="checkbox" NAME="requirements">CEP</td>
+<td>Date <br><INPUT TYPE="text" NAME="nombre" VALUE="" SIZE="10" MAXLENGTH="2" ALIGN="left"></td>
+<td>Comment <br><INPUT TYPE="text" NAME="nombre" VALUE="" SIZE="30" MAXLENGTH="2" ALIGN="left"></td>
+</tr>
+<tr>
+<td><INPUT TYPE="checkbox" NAME="requirements">Faculty</td>
+<td><INPUT TYPE="text" NAME="nombre" VALUE="" SIZE="10" MAXLENGTH="2" ALIGN="left"></td>
+<td><INPUT TYPE="text" NAME="nombre" VALUE="" SIZE="30" MAXLENGTH="2" ALIGN="left"></td>
+</tr>
+<tr>
+<td><INPUT TYPE="checkbox" NAME="requirements">Committee of Six</td>
+<td><INPUT TYPE="text" NAME="nombre" VALUE="" SIZE="10" MAXLENGTH="2" ALIGN="left"></td>
+<td><INPUT TYPE="text" NAME="nombre" VALUE="" SIZE="30" MAXLENGTH="2" ALIGN="left"></td>
+</tr>
+</table>
+</body>

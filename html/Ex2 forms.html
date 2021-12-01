@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<style>
+table {
+  border:2px solid #66ccff;
+  width:500px;
+  height:75px;
+
+}
+.table1 {
+  border:2px solid #66ccff;
+  width:760px;
+  height:75px;
+  border-collapse:collapse;
+  
+}
+th, td {
+  border:0px solid black;
+  width:500px;
+  height:75px;
+    padding-right:10px;
+  padding-left:10px;
+  
+}
+
+</style>
+<head>
+	<title>Event Planner</title>
+	<meta charset="utf-8"/>
+	<meta name="description" content=""/>
+</head>
+
+<body>
+<table class=table1>
+<th bgcolor=#66ccff>Event Planner</th>
+<td bgcolor=#66ccff><SELECT NAME="depart">  <OPTION>More Actions <OPTION>1<OPTION>2<OPTION>3</td>
+</table>
+<form>
+<table>
+<tr>
+<td><b>Event Name</td>
+<td><INPUT TYPE="text" NAME="nombre" VALUE="" SIZE="30" MAXLENGTH="20" ALIGN="left"></td>
+<td><b>Requirements</td>
+<td><INPUT TYPE="checkbox" NAME="requirements">Staffing <br><INPUT TYPE="checkbox" NAME="requirements">Catering<br><INPUT TYPE="checkbox" NAME="requirements">Security</td>
+</tr>
+<tr>
+<td><b>Event Coordinator</td>
+<td><INPUT TYPE="text" NAME="nombre" VALUE="" SIZE="30" MAXLENGTH="20" ALIGN="left"></td>
+<td><b>Event Start Date</td>
+<td><INPUT TYPE="date" NAME="dia" VALUE="" SIZE="15" MAXLENGTH="20" ALIGN="left"></td>
+</tr>
+<tr>
+<td><b>Email</td>
+<td><INPUT TYPE="text" NAME="nombre" VALUE="" SIZE="30" MAXLENGTH="20" ALIGN="left"></td>
+<td><b>Event End Date</td>
+<td><INPUT TYPE="date" NAME="dia" VALUE="" SIZE="15" MAXLENGTH="20" ALIGN="left"></td>
+</tr>
+<tr>
+<td><b>Event Type</td>
+<td><SELECT NAME="depart">  <OPTION>Concert <OPTION>Informacion<OPTION>Limpieza<OPTION>Recopilacion</td>
+<td><b>Location</td>
+<td><textarea rows="4" cols="30"></textarea></td>
+</tr>
+<tr>
+<td><b>Total Members</td>
+<td><SELECT NAME="depart">  <OPTION>Select <OPTION>1<OPTION>2<OPTION>3</td>
+<td><b>City</td>
+<td><INPUT TYPE="text" NAME="nombre" VALUE="" SIZE="30" MAXLENGTH="20" ALIGN="left"></td>
+</tr>
+<tr>
+<td><b>Event Description</td>
+<td><textarea rows="4" cols="30"></textarea></td>
+<td><b>State</td>
+<td><SELECT NAME="depart">  <OPTION>Select <OPTION>1<OPTION>2<OPTION>3</td>
+</tr>
+<tr>
+<td><b>Does your program involve any tyoe of outside ativity?</td>
+<td><INPUT TYPE="radio" NAME="Tipo" VALUE="A">Yes <br><INPUT TYPE="radio" NAME="Tipo" VALUE="A">No</td>
+<td><b>Country</td>
+<td><SELECT NAME="depart">  <OPTION>Select <OPTION>1<OPTION>2<OPTION>3</td>
+</tr>
+<tr>
+<td><b>Cost Per Person</td>
+<td><INPUT TYPE="text" NAME="nombre" VALUE="" SIZE="5" MAXLENGTH="20" ALIGN="left"></td>
+<td><b>ATTACH  DETAILED ITINERARY</td>
+<td><INPUT TYPE="text" NAME="nombre" VALUE="" SIZE="5" MAXLENGTH="20" ALIGN="left"><input type="submit" value="Browse"></td>
+</tr>
+
+</table>
+<input type="submit" value="Submit">
+  <input type="reset" value="Reset">
+</form>
+</body>
