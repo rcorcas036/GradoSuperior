@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Layout 1</title>
+	<meta charset="utf-8"/>
+	<meta name="description" content=""/>
+	<link rel="stylesheet" type="text/css" href="estilos.css" />
+</head>
+<style>
+.d1 {
+  width: 800px;
+  margin: auto;
+  background-color:#abb59e;
+}
+.d23 {
+  width: 800px;
+  margin: auto;
+  background-color:white;
+}
+.d2 {
+  width: 550px;
+  
+  
+}
+.d3 {
+  width: 250px;
+  
+  
+}
+
+.bb{
+font-size: 20px;
+color:white;
+}
+.hint{
+font-size: 8px;
+}
+.nhint{
+font-size: 40px;
+}
+.dhint{
+margin:auto;
+text-align: center;
+vertical-align: middle;
+}
+.z{
+font-size: 20px;
+color:gray;
+}
+
+  .button1 {
+                        background-color: Violet;
+                        align-items: center;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+						  border: none;
+						  padding: 15px 50px;
+						  
+						  color:white;
+                    }	
+td { 
+  padding:10px;
+  
+}
+
+.tit{
+background-color: black;
+height:30px;
+width:800px;
+ margin: auto;
+}
+
+</style>
+
+<body>
+
+<div class="tit">
+<p class="bb">CLUBW</p>
+</div>
+
+
+<div class=d1>
+
+
+
+<div class="dhint">
+<p class="nhint"><b>This year, give a gift everyone will love.</b></p>
+<p class="hint">(Hint, It's Wine)</p>
+</div>
+
+<table>
+<td>
+<div class=d2>
+ <img src="https://standrea.com/wp-content/uploads/2018/10/karacsonyi_valogatas.png" width="250px"></img>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+ aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+ eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+
+</div>
+</td>
+<td>
+<div class=d3>
+<table>
+<tr>Send us your info!<br>
+</tr>
+<tr>
+First Name<BR><INPUT TYPE="text" NAME="nombre" VALUE="" SIZE="27" MAXLENGTH="20" ALIGN="left">
+</tr>
+<tr><br>
+Last Name<BR><INPUT TYPE="text" NAME="nombre" VALUE="" SIZE="27" MAXLENGTH="20" ALIGN="left">
+</tr>
+<tr>
+Company<BR><INPUT TYPE="text" NAME="nombre" VALUE="" SIZE="27" MAXLENGTH="20" ALIGN="left">
+</tr>
+<tr>
+Email<BR><INPUT TYPE="text" NAME="nombre" VALUE="" SIZE="27" MAXLENGTH="20" ALIGN="left">
+</tr>
+<tr>
+Phone Number<BR><INPUT TYPE="text" NAME="nombre" VALUE="" SIZE="27" MAXLENGTH="20" ALIGN="left">
+</tr>
+<tr>
+Amount <BR><SELECT NAME="depart">  <OPTION>Select <OPTION>1</option><OPTION>2</option><OPTION>3</option>
+</tr>
+<tr><br>
+Additional Information<br><textarea rows="4" cols="26"></textarea>
+</tr>
+</table>
+
+<button class="button1">
+    
+Submit</button>
+
+</div>
+</td>
+
+</div>
+
+<div class=d23>
+<table>
+<td>
+<img src="https://media-exp1.licdn.com/dms/image/C4D03AQH1YpwzTpSztQ/profile-displayphoto-shrink_100_100/0/1516856724038?e=2159024400&v=beta&t=nYnUh4U_y4aOOWD3VnUC-YyE1zfneznd5NvwiZ9NycM" width="70px"></img>
+<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+labore et dolore magna aliqua. Ut enim
+</td>
+<td>
+<img src="https://media-exp1.licdn.com/dms/image/C4D03AQEhB8pjDiLZNQ/profile-displayphoto-shrink_200_200/0/1572192938237?e=1644451200&v=beta&t=jT1wv8l0TgTmQG4Ia2d0luGuQTyeL34lkddmw_AfpcY" width="70px"></img>
+<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+labore et dolore magna aliqua. Ut enim
+</td>
+<td>
+<img src="https://media-exp1.licdn.com/dms/image/C5603AQHZ0b_VulKuiw/profile-displayphoto-shrink_100_100/0/1516587873111?e=2159024400&v=beta&t=4v5B74eki4Y1wIi0oORIGeEvda2Ijct1XTVoNHsImX4" width="70px"></img><br>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+labore et dolore magna aliqua. Ut enim
+</td>
+</table>
+</div>
+
+</body>

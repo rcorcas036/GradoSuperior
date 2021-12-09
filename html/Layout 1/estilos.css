@@ -1,0 +1,63 @@
+body {background-color:#AFA5A4 ;}
+h1{text-align: center;
+color:#EAD5D3}
+.div1 {
+        background-color: white;
+		color:#857C7A;
+		width:820px;
+		margin:auto;
+		margin-bottom:30px;
+    }
+.div2 {
+        background-color: white;
+		color:#857C7A;
+		width:800px;
+		margin:auto;
+		padding:10px;
+		margin-bottom:30px;
+    }
+table td {
+    width: 100px;
+	text-align:center;
+	height:50px;
+}
+.container {
+                        display: flex;
+
+                        /* If you want to place the icon before the text input */
+                        flex-direction: row-reverse;
+
+                        /* Border */
+                        border: 1px solid rgba(0, 0, 0, 0.3);
+                    }
+
+						.container__input {
+					
+                        border-color: transparent;
+                        /* Take available width */
+                        flex: 1;
+						align:left;
+                    }
+.container2 {
+                        display: flex;
+						width:175px;
+						background-color: white;	
+                        flex-direction: row-reverse;
+						 padding:10px;
+                        /* Border */
+                        border: 1px solid rgba(0, 0, 0, 0.3);
+                    }
+
+						.container__input2 {
+						
+					background-color: white;
+                        border-color: transparent;
+                       
+                        flex: 1;
+						align:left;
+                    }	
+
+.mg1{
+margin: auto;
+border-spacing: 10px;
+}

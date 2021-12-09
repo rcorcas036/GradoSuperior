@@ -1,0 +1,64 @@
+
+
+
+
+table{
+margin:auto;
+margin-right: 200px;
+}
+
+.table1{
+margin:auto;
+border-spacing: 100px;
+
+}						
+td{
+font-size:40px;
+align:center;
+}
+.td1{
+width:200px;
+
+}
+
+
+.div1{
+background-color: white;
+height:900px;
+ position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 600px;
+
+}
+p{
+
+  font-size: 25px;
+  }
+  
+  
+  b{
+	color:gray;
+	
+  font-size: 30px;}
+  .button {
+                        background-color: white;
+                        align-items: center;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+						  border: none;
+						  padding: 15px 50px;
+						  margin-left:75%;
+                    }
+body {
+ background-image: url("https://media.istockphoto.com/vectors/christmas-red-background-with-snowflakes-vector-id1068680298?b=1&k=20&m=1068680298&s=170667a&w=0&h=YUa3Jx_vzCxb58Tbyh84OD-TtbrKUFUhjsWTmCBnh5k=");
+
+}
+
+.cuadro{
+background-color:#FF0000;
+padding:50px;
+color:white;
+text-align:center;
+}

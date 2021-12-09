@@ -1,0 +1,106 @@
+
+
+
+
+table{
+margin:auto;
+margin-right: 200px;
+}
+
+.table1{
+margin:auto;
+border-spacing: 40px 1px;
+
+
+}	
+.table2{
+color:white;
+border-spacing: 40px;
+font-size: 30px;
+text-align: left;
+}						
+td{
+font-size:25px;
+align:center;
+
+}
+
+.td1{
+width:200px;
+background-color: white;
+}
+.div1{
+background-color: transparent;
+height:900px;
+ position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 650px;
+
+}
+p{
+
+  font-size: 25px;
+  color:white;
+  }
+  
+.pt{
+font-size: 70px;
+	color:white
+}
+  
+  
+  b{
+	color:white;
+	
+  font-size: 30px;}
+  .button {
+                        background-color: transparent;
+                        align-items: center;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+						  border: none;
+						  padding: 15px 50px;
+						  margin-left:75%;
+						    border: 2px solid white;
+							color:white;
+							border-radius:20px;
+                    }
+  .button1 {
+                        background-color: green;
+                        align-items: center;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+						  border: none;
+						  padding: 15px 50px;
+						  margin-left:75%;
+						  color:white;
+                    }	
+  .button11 {
+                        background-color: transparent;
+                        align-items: center;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+						  border: none;
+						  padding: 15px 50px;
+						  margin-left:75%;
+						  color:white;
+                    }						
+body {
+ background-image: url("https://i.pinimg.com/564x/ed/e6/b6/ede6b6febda1542e5ae3f89b1d4aa630.jpg");
+ background-size: cover;
+}
+
+.cuadro{
+background-color:#FF0000;
+padding:50px;
+color:white;
+text-align:center;
+}
+
+hr.g1 {
+  border-top: 1px solid #434547;
+}

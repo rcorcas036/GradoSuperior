@@ -1,0 +1,63 @@
+.d1 {
+  width: 800px;
+  margin: auto;
+  background-color:#abb59e;
+}
+.d23 {
+  width: 800px;
+  margin: auto;
+  background-color:white;
+}
+.d2 {
+  width: 550px;
+  
+  
+}
+.d3 {
+  width: 250px;
+  
+  
+}
+
+.bb{
+font-size: 20px;
+color:white;
+}
+.hint{
+font-size: 8px;
+}
+.nhint{
+font-size: 40px;
+}
+.dhint{
+margin:auto;
+text-align: center;
+vertical-align: middle;
+}
+.z{
+font-size: 20px;
+color:gray;
+}
+
+  .button1 {
+                        background-color: Violet;
+                        align-items: center;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+						  border: none;
+						  padding: 15px 50px;
+						  
+						  color:white;
+                    }	
+td { 
+  padding:10px;
+  
+}
+
+.tit{
+background-color: black;
+height:30px;
+width:800px;
+ margin: auto;
+}
