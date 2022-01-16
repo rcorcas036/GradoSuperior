@@ -7,14 +7,14 @@ import Imprimir.Imprimir;
 import java.util.InputMismatchException;
 
 /**
- * Clase donde ubico los m�todos para el control de errores en la introducci�n de variables.
+ * Clase donde ubico los métodos para el control de errores en la introducción de variables.
  * 
  */
 
 public class Introducir {
 
   /**
-   * Método que recoje un char por teclado y lo devuelve
+   * MÃ©todo que recoje un char por teclado y lo devuelve
    * 
    * @return char
    */
@@ -28,7 +28,7 @@ public class Introducir {
   }
 
   /**
-   * Método que devuelve un entero con el previo control de errores, el texto que recibe el método lo imprime 
+   * MÃ©todo que devuelve un entero con el previo control de errores, el texto que recibe el mÃ©todo lo imprime 
    * por pantalla antes de recoger la variable por teclado.
    * 
    * @param text
@@ -73,7 +73,7 @@ public class Introducir {
   }
 
   /**
-   * Método que devuelve un float con el previo control de errores, el texto que recibe el método lo imprime 
+   * MÃ©todo que devuelve un float con el previo control de errores, el texto que recibe el mÃ©todo lo imprime 
    * por pantalla antes de recoger la variable por teclado.
    * 
    * @param text
@@ -117,7 +117,7 @@ public class Introducir {
   }
   
   /**
-   * M�todo que devuelve un double con el previo control de errores, el texto que recibe el m�todo lo imprime 
+   * Método que devuelve un double con el previo control de errores, el texto que recibe el método lo imprime 
    * por pantalla antes de recoger la variable por teclado.
    * 
    * @param text
@@ -162,7 +162,7 @@ public class Introducir {
   }
   
   /**
-   * Método que devuelve un String, el texto que recibe el método lo imprime 
+   * MÃ©todo que devuelve un String, el texto que recibe el mÃ©todo lo imprime 
    * por pantalla antes de recoger la variable por teclado.
    * 
    * @param text
@@ -178,54 +178,5 @@ public class Introducir {
     return value;
   }
 
-  /**
-   * Este método nos devuelve la edad con un control de errores.
-   * 
-   * @param text
-   * @return edad
-   */
-  public static int getIntAge(String text) {
-    
-    boolean validNum = true;
-    Scanner scan = new Scanner(System.in);
-    int num = 0;
-
-    do {   
-      try {
-        Imprimir.p(text);
-        num = scan.nextInt();
-
-        if (num < 0) {
-          validNum = true;
-          Imprimir.P( "Debe ingresar obligatoriamente una edad valida.");       
-        }else if(num < 16){
-          validNum = true;
-          Imprimir.P("Debe ingresar obligatoriamente una edad valida.");
-        }else if(num > 65){
-          validNum = true;
-          Imprimir.P("Debe ingresar obligatoriamente una edad valida.");
-        }
-        else{
-          validNum = false;
-        }
-
-        
-      }  catch (InputMismatchException ex) {
-        
-        scan.nextLine();
-        validNum = true;
-        Imprimir.P("Debe ingresar obligatoriamente una edad valida.");
-        
-
-      } catch (Exception e) {
-        
-        scan.nextLine();
-        validNum = true;
-        Imprimir.P("Debe ingresar obligatoriamente una edad valida.");
-
-      }
-    } while(validNum);
-    
-    return num;
-  }
+ 
 }
